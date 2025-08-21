@@ -6,7 +6,7 @@ from pathlib import Path
 
 pipeline = Pipeline.from_pretrained(
     "pyannote/speaker-diarization-3.1",
-    use_auth_token="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")
+    use_auth_token="HF_TOKEN")
 
 # send pipeline to GPU (when available)
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
