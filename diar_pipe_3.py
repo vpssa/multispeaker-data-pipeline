@@ -161,6 +161,6 @@ def process_directory(directory, hf_token):
 if __name__ == "__main__":
     directory = 'diarization'  # replace with your directory
     # print("directory: ", directory)
-    hf_token  = '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'
+    hf_token  = 'HF_TOKEN'
 
     process_directory(directory, hf_token)
